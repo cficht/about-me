@@ -9,6 +9,7 @@ body {
 
 header, .chrisContent, .answerQuizBox {
     border: solid white;
+    border-radius: 10px;
     width: 700px;
     margin: 0 auto;
     background-color: #005899;

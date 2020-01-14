@@ -2,6 +2,7 @@ import isYes from '/isYes.js';
 
 const quizButton = document.getElementById('quiz-button');
 const resultsText = document.getElementById('results-text');
+const percentageText = document.getElementById('percentage-text');
 
 
 quizButton.addEventListener('click', () => {
@@ -21,5 +22,16 @@ quizButton.addEventListener('click', () => {
     alert('Quiz is complete! Calculating results');
 
     resultsText.textContent = `${name}, you got ${answerCount}/3 correct!`;
-
+    percentageText.textContent = Math.round((answerCount / 3) * 100) + '%';
+    
+    if (answerCount === 3) {
+        resultsText.style.color = 'yellow';
+        percentageText.style.color = 'yellow';
+    } else if (answerCount === 0) {
+        resultsText.style.color = 'red';
+        percentageText.style.color = 'red';
+    } else {
+        resultsText.style.color = 'white';
+        resultsText.style.color = 'white';
+    }
 });
