@@ -7,42 +7,44 @@ body {
     color: #FFFFFF;
 }
 
-header {
+header, .chrisContent, .answerQuizBox {
     border: solid white;
     width: 700px;
     margin: 0 auto;
     background-color: #005899;
     padding: 10px;
     text-align: center;
+}
+
+header {
+    width: 700px; 
 }
 
 .chrisContent {
-    border: solid white;
-    width: 700px;
-    margin: 0 auto;
-    background-color: #005899;
-    padding: 10px;
+    width: 400px;
 }
 
 .answerQuizBox {
-    border: solid white;
     width: 500px;
-    margin: 0 auto;
-    background-color: #005899;
-    padding: 10px;
-    text-align: center;
 }
 
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 4rem;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Anton', sans-serif;
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 p {
     font-family: 'Cabin', sans-serif;
+}
+
+ol, ul {
+    list-style: inside;
+    padding-inline-start: 0px;
 }
