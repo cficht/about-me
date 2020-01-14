@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B7CCE2;
+    color: #FFFFFF;
+}
+
+header {
+    border: solid white;
+    width: 700px;
+    margin: 0 auto;
+    background-color: #005899;
+    padding: 10px;
+    text-align: center;
+}
+
+.chrisContent {
+    border: solid white;
+    width: 700px;
+    margin: 0 auto;
+    background-color: #005899;
+    padding: 10px;
+}
+
+.answerQuizBox {
+    border: solid white;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #005899;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
