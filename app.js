@@ -1,4 +1,4 @@
-import isYes from '/isYes.js';
+import isYes from './isYes.js';
 
 const quizButton = document.getElementById('quiz-button');
 const resultsText = document.getElementById('results-text');
